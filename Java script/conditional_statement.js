@@ -17,5 +17,18 @@ else if (user1 == user3) {
 }
 
 else {
-    "Ghee khatam";
+    console.log("Ghee khatam");
+}
+
+// Checking where array is empty or not.
+
+let Requriment_for_web = [];
+let Requriment_for_App = ["Kotlin", "Android-studio"];
+
+if (Requriment_for_web === 0 && Requriment_for_App === 0) {
+    console.log("This is empty array");
+}
+
+else {
+    console.log("These array have some elements");
 }
